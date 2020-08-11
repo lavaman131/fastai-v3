@@ -9,7 +9,7 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://drive.google.com/uc?export=download&id=1pPmaF7QDUdgXmRynDC3wQpqvwpbYmjIc'
+export_file_url = 'https://drive.google.com/uc?export=download&id=1d1nl4h8Ahag1nRIsc5YJJ5lMWKBn1Jl5'
 export_file_name = 'leaf_model.pkl'
 
 classes = ['Apple - Black rot',
@@ -18,38 +18,33 @@ classes = ['Apple - Black rot',
  'Apple - Scab',
  'Bell pepper - Bacterial spot',
  'Bell pepper - Healthy',
- 'Blueberry - Healthy',
  'Cherry - Healthy',
  'Cherry - Powdery mildew',
  'Corn - Common rust',
  'Corn - Gray leaf spot',
  'Corn - Healthy',
- 'Corn - Northern leaf blight',
- 'Grape - Black measles',
+ 'Corn - Northern Leaf Blight',
+ 'Grape - Black Measles',
  'Grape - Black rot',
  'Grape - Healthy',
- 'Grape - Isariopsis leaf spot',
- 'Orange  - Citrus greening',
+ 'Grape - Isariopsis Leaf Spot',
  'Peach - Bacterial spot',
  'Peach - Healthy',
  'Potato - Early blight',
  'Potato - Healthy',
  'Potato - Late blight',
- 'Raspberry - Healthy',
- 'Soybean - Healthy',
- 'Squash - Powdery mildew',
  'Strawberry - Healthy',
  'Strawberry - Leaf scorch',
  'Tomato - Bacterial spot',
  'Tomato - Early blight',
  'Tomato - Healthy',
  'Tomato - Late blight',
- 'Tomato - Leaf mold',
+ 'Tomato - Leaf Mold',
  'Tomato - Mosaic virus',
  'Tomato - Septoria leaf spot',
  'Tomato - Spider mites',
- 'Tomato - Target spot',
- 'Tomato - Yellow leaf curl virus']
+ 'Tomato - Target Spot',
+ 'Tomato - Yellow Leaf Curl Virus']
 
 path = Path(__file__).parent
 
