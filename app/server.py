@@ -9,14 +9,13 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://drive.google.com/uc?export=download&id=1lRPZfkfFRV0oQO-H-SX8FB8UyBTB4hmQ'
+export_file_url = 'https://drive.google.com/uc?export=download&id=1pPmaF7QDUdgXmRynDC3wQpqvwpbYmjIc'
 export_file_name = 'leaf_model.pkl'
 
 classes = ['Apple - Black rot',
  'Apple - Cedar apple rust',
  'Apple - Healthy',
  'Apple - Scab',
- 'Background without leaves',
  'Bell pepper - Bacterial spot',
  'Bell pepper - Healthy',
  'Blueberry - Healthy',
