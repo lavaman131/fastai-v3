@@ -62,3 +62,8 @@ button.analyze-button {
 button:focus {
     outline: 0;
 }
+
+.crop img {
+    width: 224px;
+    height:224px;
+}
