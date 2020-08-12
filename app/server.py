@@ -9,7 +9,7 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://www.googleapis.com/drive/v3/files/13EKsnZEvjQ8KdKfOEH0I5KPuRVaAgpA_?alt=media&key=AIzaSyCF4XRxek1bUM3gNeSjfNkpKxpu-p6gNYY'
+export_file_url = 'https://www.googleapis.com/drive/v3/files/1gzXIt57jo3-th-Fx07UwfUMRkCYWhZqp?alt=media&key=AIzaSyCVliRW0_VdHGxJSecRAYe-j0xbtGRbebw'
 export_file_name = 'final_leaf_model.pkl'
 
 classes = ['Apple - Black rot',
