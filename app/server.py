@@ -93,10 +93,11 @@ async def analyze(request):
     img_data = await request.form()
     img_bytes = await (img_data['file'].read())
     img = open_image(BytesIO(img_bytes))
-    prediction = learn.predict(img)[0]
+    final_img = img.resize(torch.Size([img.shape[0],224, 224]))
+    prediction = learn.predict(final_img)[0]
     return JSONResponse({'result': str(prediction)})
-
-
+   
+   
 if __name__ == '__main__':
     if 'serve' in sys.argv:
         uvicorn.run(app=app, host='0.0.0.0', port=5000, log_level="info")
