@@ -62,3 +62,20 @@ button.analyze-button {
 button:focus {
     outline: 0;
 }
+
+/* Style the submit button */
+button#searchButton {
+  float: left;
+  width: 100%;
+  padding: 10px;
+  background: green;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+}
+
+button#searchButton:hover {
+  background: #33A532;
+}
