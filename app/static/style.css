@@ -49,6 +49,10 @@ button.choose-file-button {
     color: #7052CB;
 }
 
+button.choose-file-button:hover {
+  background: #B19CD9;
+}
+
 button.analyze-button {
     width: 200px;
     height: 40px;
@@ -57,6 +61,10 @@ button.analyze-button {
     background-color: #7052CB;
     font-size: 13px;
     color: #ffffff;
+}
+
+button.analyze-button:hover {
+  background: #B19CD9;
 }
 
 button:focus {
@@ -70,7 +78,7 @@ button#searchButton {
   padding: 10px;
   background: green;
   color: white;
-  font-size: 17px;
+  font-size: 60px;
   border: 1px solid grey;
   border-left: none; /* Prevent double borders */
   cursor: pointer;
