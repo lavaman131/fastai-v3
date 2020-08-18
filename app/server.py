@@ -9,20 +9,32 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://www.googleapis.com/drive/v3/files/1d2UM-PjPlm58yZ6Al3f_9L4UZdRL2BcA?alt=media&key=AIzaSyDZJC9G6wwcHIOXPdZyLJdVyW2DT7EY42Q'
-export_file_name = 'LEAF_MODEL.pkl'
+export_file_url = 'https://www.googleapis.com/drive/v3/files/1aguuVAd_UAMEUrBAi8GdWNXf0ZrFhUfW?alt=media&key=AIzaSyB4PK5XfT2NYZi_KYTHnsevHsEcj-KRn28'
+export_file_name = 'FINAL_LEAF_MODEL.pkl'
 
 classes = ['Apple - Black rot',
  'Apple - Cedar apple rust',
  'Apple - Healthy',
  'Apple - Scab',
+ 'Bell pepper - Bacterial spot',
+ 'Bell pepper - Healthy',
+ 'Cherry - Healthy',
+ 'Cherry - Powdery mildew',
+ 'Corn - Common rust',
+ 'Corn - Gray leaf spot',
+ 'Corn - Healthy',
+ 'Corn - Northern Leaf Blight',
  'Grape - Black Measles',
  'Grape - Black rot',
  'Grape - Healthy',
  'Grape - Isariopsis Leaf Spot',
+ 'Peach - Bacterial spot',
+ 'Peach - Healthy',
  'Potato - Early blight',
  'Potato - Healthy',
  'Potato - Late blight',
+ 'Strawberry - Healthy',
+ 'Strawberry - Leaf scorch',
  'Tomato - Bacterial spot',
  'Tomato - Early blight',
  'Tomato - Healthy',
