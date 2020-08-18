@@ -6,12 +6,13 @@
     margin: auto;
     padding: 10px 50px;
     text-align: center;
-    font-size: 14px;
+    font-size: 60px;
     color: #ffffff;
 }
 
 .title {
-    font-size: 30px;
+    font-size: 60px;
+    text-align: center;
     margin-top: 1em;
     margin-bottom: 1em;
     color: #ffffff;
@@ -27,14 +28,14 @@
 
 .upload-label {
     padding: 10px;
-    font-size: 12px;
+    font-size: 60px;
     color: #ffffff;
 }
 
 .result-label {
     margin-top: 0.5em;
     padding: 10px;
-    font-size: 13px;
+    font-size: 60px;
     color: #ffffff;
 }
 
@@ -44,7 +45,7 @@ button.choose-file-button {
     border-radius: 2px;
     background-color: #ffffff;
     border: solid 1px #7052CB;
-    font-size: 13px;
+    font-size: 40px;
     color: #7052CB;
 }
 
@@ -58,7 +59,7 @@ button.analyze-button {
     border: solid 1px #7052CB;
     border-radius: 2px;
     background-color: #7052CB;
-    font-size: 13px;
+    font-size: 40px;
     color: #ffffff;
 }
 
