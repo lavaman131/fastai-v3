@@ -50,7 +50,7 @@ button.choose-file-button {
 }
 
 button.choose-file-button:hover {
-  background: #B19CD9;
+  background: #D3D3D3;
 }
 
 button.analyze-button {
@@ -78,7 +78,7 @@ button#searchButton {
   padding: 10px;
   background: green;
   color: white;
-  font-size: 60px;
+  font-size: 30px;
   border: 1px solid grey;
   border-left: none; /* Prevent double borders */
   cursor: pointer;
