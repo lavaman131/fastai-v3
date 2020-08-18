@@ -66,7 +66,8 @@ button:focus {
 /* Style the submit button */
 button#searchButton {
   float: left;
-  width: 100%;
+  width: 200px;
+  height: 40px;
   padding: 10px;
   background: green;
   color: white;
