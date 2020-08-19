@@ -31,12 +31,14 @@ function analyze() {
       var response = JSON.parse(e.target.responseText);
       el("result-label").innerHTML = `Result = ${response["result"]}`;
       
-      (function search(){
+      function search(){
+	      console.log('outer running')
         var searchButton = document.getElementById("searchButton");
         searchButton.addEventListener("click", function search(){
-        window.open('https://www.google.com/search?q=' + response[Object.keys(response)[Object.keys(response).length - 1]]  + ' ' + 'treatment');
+		      console.log('inner running')
+        	window.open('https://www.google.com/search?q=' + response + ' ' + 'treatment')
+	});
     
-  });
 })();
     }
     el("analyze-button").innerHTML = "Analyze";
