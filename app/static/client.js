@@ -34,14 +34,14 @@ function analyze() {
       (function search(){
         var searchButton = document.getElementById("searchButton");
         searchButton.addEventListener("click", function search(){
-        window.open('https://www.google.com/search?q=' + response["result"] + ' ' + 'treatment');
+		
+	if (this.readyState === 4) {
+          window.open('https://www.google.com/search?q=' + response["result"] + ' ' + 'treatment');
+	}
     
   });
 })();
-	(function remove(){
-      	  document.getElementById("searchButton").removeEventListener("click", function search(){
-  });
-})();
+
     }
     el("analyze-button").innerHTML = "Analyze";
   };
