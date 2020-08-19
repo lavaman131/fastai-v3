@@ -32,11 +32,12 @@ function analyze() {
       el("result-label").innerHTML = `Result = ${response["result"]}`;
       
       (function search(){
-	var searchButton = document.getElementById("searchButton");
-        searchButton.addEventListener("click", function search(){
-	window.open('https://www.google.com/search?q=' + response + ' ' + 'treatment')
-	});
+    var searchButton = document.getElementById("searchButton");
+
+  searchButton.addEventListener("click", function search(){
+    window.open('https://www.google.com/search?q=' + response["result"] + ' ' + 'treatment');
     
+  });
 })();
     }
     el("analyze-button").innerHTML = "Analyze";
@@ -46,3 +47,5 @@ function analyze() {
   fileData.append("file", uploadFiles[0]);
   xhr.send(fileData);
 }
+
+
