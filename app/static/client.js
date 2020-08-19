@@ -32,14 +32,16 @@ function analyze() {
       el("result-label").innerHTML = `Result = ${response["result"]}`;
       
       (function search(){
-    var searchButton = document.getElementById("searchButton");
-
-  searchButton.addEventListener("click", function search(){
-    window.open('https://www.google.com/search?q=' + response["result"] + ' ' + 'treatment');
-    
+    		var searchButton = document.getElementById("searchButton");
+        searchButton.addEventListener("click", function search(){
+        window.open('https://www.google.com/search?q=' + response["result"] + ' ' + 'treatment');
+        
   });
 })();
-    }
+      	(function remove(){
+      		document.getElementById("searchButton").removeEventListener("click", function search(){
+	});
+})();
     el("analyze-button").innerHTML = "Analyze";
   };
 
@@ -47,5 +49,3 @@ function analyze() {
   fileData.append("file", uploadFiles[0]);
   xhr.send(fileData);
 }
-
-
