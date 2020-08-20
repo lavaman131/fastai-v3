@@ -34,7 +34,7 @@ function analyze() {
       (function search(){
         var searchButton = document.getElementById("searchButton");
         searchButton.addEventListener("click", function search(){
-        window.open('https://www.google.com/search?q=' + el("result-label").innerHTML + ' ' + 'treatment');
+        window.open('https://www.google.com/search?q=' + 'tree' + ' ' + 'treatment');
     
   });
 })();
