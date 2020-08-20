@@ -35,7 +35,7 @@ function analyze() {
         var searchButton = document.getElementById("searchButton");
         searchButton.addEventListener("click", function search(){
         window.open('https://www.google.com/search?q=' + response["result"] + ' ' + 'treatment');
-        location.reload();
+        window.location.reload();
     
   });
 })();
