@@ -9,8 +9,8 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://www.googleapis.com/drive/v3/files/1dCkqH7ApM5AuxbZeCmFU5lRWGmmcLkNz?alt=media&key=AIzaSyC03zu1_W_CCoqp9265cU7Mp-iBHRTFeYA'
-export_file_name = 'FINAL_LEAF_MODEL2.pkl'
+export_file_url = 'https://www.googleapis.com/drive/v3/files/1G2Kjw0ID_2EkuLDlHFb1SAd32TaFlMA5?alt=media&key=AIzaSyC03zu1_W_CCoqp9265cU7Mp-iBHRTFeYA'
+export_file_name = 'FINAL_LEAF_MODEL3.pkl'
 
 classes = ['Apple Black rot',
  'Apple Healthy',
