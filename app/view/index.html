@@ -30,13 +30,16 @@
         <img id='image-picked' class='no-display' alt='Chosen Image' width ='224' height='224'>
       </div>
       <div class='analyze'>
-        <button id='analyze-button' class='analyze-button' type='button' onclick='analyze()' style="font-size: 40px; width: 600px; height: 100px">Analyze</button>
+        <button id='analyze-button' class='analyze-button' type='button' disabled onclick='analyze()' style="font-size: 40px; width: 600px; height: 100px">Analyze</button>
       </div>
       <div class='result-label' style="font-size:60px">
         <label id='result-label'></label>
       </div>
-      <div class='search'>
+      <div class='search' disabled onclick='search()'>
         <button id="searchButton">Learn more</button>
+      </div>
+      <div>
+        <button class='back-btn' type='button' onclick='refreshPage()' style="font-size: 40px; width: 600px; height: 100px">Back</button>
       </div>
     </div>
   </div>

@@ -1,68 +1,68 @@
 .no-display {
-    display: none;
+  display: none;
 }
 
 .center {
-    margin: auto;
-    padding: 10px 50px;
-    text-align: center;
-    color: #ffffff;
+  margin: auto;
+  padding: 10px 50px;
+  text-align: center;
+  color: #ffffff;
 }
 
 .title {
-    text-align: center;
-    margin-top: 1em;
-    margin-bottom: 1em;
-    color: #ffffff;
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  color: #ffffff;
 }
 
 .content {
-    margin-top: 10em;
+  margin-top: 10em;
 }
 
 .analyze {
-    margin-top: 5em;
+  margin-top: 5em;
 }
 
 .upload-label {
-    padding: 10px;
-    color: #ffffff;
+  padding: 10px;
+  color: #ffffff;
 }
 
 .result-label {
-    margin-top: 0.5em;
-    padding: 10px;
-    color: #ffffff;
+  margin-top: 0.5em;
+  padding: 10px;
+  color: #ffffff;
 }
 
 button.choose-file-button {
-    width: 200px;
-    height: 40px;
-    border-radius: 2px;
-    background-color: #ffffff;
-    border: solid 1px #7052CB;
-    color: #7052CB;
+  width: 200px;
+  height: 40px;
+  border-radius: 2px;
+  background-color: #ffffff;
+  border: solid 1px #7052cb;
+  color: #7052cb;
 }
 
 button.choose-file-button:hover {
-  background: #D3D3D3;
+  cursor: pointer;
 }
 
 button.analyze-button {
-    width: 200px;
-    height: 40px;
-    border: solid 1px #7052CB;
-    border-radius: 2px;
-    background-color: #7052CB;
-    color: #ffffff;
+  width: 200px;
+  height: 40px;
+  border: solid 1px grey;
+  border-radius: 2px;
+  background-color: grey;
+  color: #ffffff;
 }
 
 button.analyze-button:hover {
-  background: #B19CD9;
+  cursor: not-allowed;
 }
 
 button:focus {
-    outline: 0;
+  outline: 0;
 }
 
 /* Style the submit button */
@@ -70,7 +70,7 @@ button#searchButton {
   width: 600px;
   height: 100px;
   padding: 10px;
-  background: green;
+  background: grey;
   color: white;
   font-size: 40px;
   border: 1px solid grey;
@@ -79,5 +79,5 @@ button#searchButton {
 }
 
 button#searchButton:hover {
-  background: #33A532;
+  cursor: not-allowed;
 }
