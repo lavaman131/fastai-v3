@@ -10,35 +10,37 @@
 }
 
 .title {
+  font-size: 50px;
   text-align: center;
-  margin-top: 1em;
-  margin-bottom: 1em;
+  margin-top: 0.25em;
+  margin-bottom: 0.25em;
   color: #ffffff;
 }
 
 .content {
-  margin-top: 10em;
+  margin-top: 0.5em;
 }
 
 .analyze {
-  margin-top: 5em;
+  margin-top: 0.5em;
 }
 
-.upload-label {
-  padding: 10px;
-  color: #ffffff;
+#image-picked {
+  margin-top: 1em;
 }
 
 .result-label {
-  margin-top: 0.5em;
+  font-size: 25px;
+  margin-top: 0.25em;
   padding: 10px;
   color: #ffffff;
 }
 
 button.choose-file-button {
-  width: 200px;
-  height: 40px;
-  border-radius: 2px;
+  font-size: 30px;
+  width: 300px;
+  height: 60px;
+  border-radius: 12px;
   background-color: #ffffff;
   border: solid 1px #7052cb;
   color: #7052cb;
@@ -49,10 +51,12 @@ button.choose-file-button:hover {
 }
 
 button.analyze-button {
-  width: 200px;
-  height: 40px;
+  font-size: 30px;
+  margin: 10px;
+  width: 300px;
+  height: 60px;
   border: solid 1px grey;
-  border-radius: 2px;
+  border-radius: 12px;
   background-color: grey;
   color: #ffffff;
 }
@@ -67,17 +71,32 @@ button:focus {
 
 /* Style the submit button */
 button#searchButton {
-  width: 600px;
-  height: 100px;
-  padding: 10px;
-  background: grey;
+  font-size: 30px;
+  margin: 10px;
+  width: 300px;
+  height: 60px;
+  border-radius: 12px;
+  background-color: grey;
+  border: solid 1px grey;
   color: white;
-  font-size: 40px;
-  border: 1px solid grey;
-  border-left: none; /* Prevent double borders */
   cursor: pointer;
 }
 
 button#searchButton:hover {
+  cursor: not-allowed;
+}
+
+button#backbtn {
+  font-size: 30px;
+  width: 300px;
+  height: 60px;
+  border-radius: 12px;
+  margin: 10px;
+  background-color: grey;
+  border: solid 1px grey;
+  color: white;
+}
+
+button#backbtn:hover {
   cursor: not-allowed;
 }

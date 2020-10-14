@@ -3,13 +3,13 @@ var el = x => document.getElementById(x);
 function refreshPage() {
   window.location.reload();
 }
+
 function showPicker() {
   el("file-input").click();
   
 }
 
 function showPicked(input) {
-  el("upload-label").innerHTML = input.files[0].name;
   var reader = new FileReader();
   reader.onload = function(e) {
     el("image-picked").src = e.target.result;
@@ -37,11 +37,15 @@ function analyze() {
     if (this.readyState === 4) {
       var response = JSON.parse(e.target.responseText);
       el("result-label").innerHTML = `Result = ${response["result"]}`;
+      el("backbtn").disabled = false;
+      el("backbtn").style.backgroundColor = "#ff0000";
+      el("backbtn").style.cursor = "pointer";
       el("searchButton").style.backgroundColor = "#228B22";
       el("searchButton").style.cursor = "pointer";
       
       if (response["result"].includes("Healthy")) {
         el("searchButton").style.visibility = 'hidden';
+        
        
       }
       else {
