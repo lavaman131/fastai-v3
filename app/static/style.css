@@ -10,7 +10,7 @@
 }
 
 .title {
-  font-size: 50px;
+  font-size: 750%;
   text-align: center;
   margin-top: 0.25em;
   margin-bottom: 0.25em;
@@ -30,16 +30,16 @@
 }
 
 .result-label {
-  font-size: 25px;
+  font-size: 45px;
   margin-top: 0.25em;
   padding: 10px;
   color: #ffffff;
 }
 
 button.choose-file-button {
-  font-size: 30px;
-  width: 300px;
-  height: 60px;
+  font-size: 45px;
+  width: 625px;
+  height: 100px;
   border-radius: 12px;
   background-color: #ffffff;
   border: solid 1px #7052cb;
@@ -51,10 +51,10 @@ button.choose-file-button:hover {
 }
 
 button.analyze-button {
-  font-size: 30px;
+  font-size: 45px;
   margin: 10px;
-  width: 300px;
-  height: 60px;
+  width: 625px;
+  height: 100px;
   border: solid 1px grey;
   border-radius: 12px;
   background-color: grey;
@@ -71,10 +71,10 @@ button:focus {
 
 /* Style the submit button */
 button#searchButton {
-  font-size: 30px;
+  font-size: 45px;
   margin: 10px;
-  width: 300px;
-  height: 60px;
+  width: 625px;
+  height: 100px;
   border-radius: 12px;
   background-color: grey;
   border: solid 1px grey;
@@ -87,9 +87,9 @@ button#searchButton:hover {
 }
 
 button#backbtn {
-  font-size: 30px;
-  width: 300px;
-  height: 60px;
+  font-size: 45px;
+  width: 625px;
+  height: 100px;
   border-radius: 12px;
   margin: 10px;
   background-color: grey;
